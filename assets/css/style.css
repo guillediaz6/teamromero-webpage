@@ -1,4 +1,4 @@
-﻿
+
         :root {
             --gold:     #FFD700;
             --gold-lt:  #FFE84D;
@@ -374,8 +374,8 @@
             pointer-events: none;
         }
         @media (max-width: 900px) {
-            .floating-croc { width: 320px; bottom: -149px; right: 0; } /* PosiciÃ³n intacta para mÃ³vil */
-            .testimonials-section { padding: 80px 0 40px 0; }
+            .floating-croc { width: 300px; bottom: -165px; right: 0; }
+            .testimonials-section { padding: 80px 0 120px 0; }
         }
 
         /* HORARIO */
