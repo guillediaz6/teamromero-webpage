@@ -68,7 +68,7 @@
 
         /* HERO */
         .hero { min-height:100vh; position:relative; display:flex; align-items:center; justify-content:center; text-align:center; overflow:hidden; }
-        .hero-bg { position:absolute; inset:0; background:linear-gradient(rgba(10,15,12,.65),rgba(10,15,12,.75)), url('../img/portada.png') center/cover no-repeat; transform:scale(1.05); transition:transform 8s ease; }
+        .hero-bg { position:absolute; inset:0; background:linear-gradient(rgba(10,15,12,.65),rgba(10,15,12,.75)), url('../img/portada.webp') center/cover no-repeat; transform:scale(1.05); transition:transform 8s ease; }
         .hero:hover .hero-bg { transform:scale(1.09); }
         .hero::before { content:''; position:absolute; top:-200px; left:-200px; width:600px; height:600px; background:radial-gradient(circle,rgba(58,140,92,.15) 0%,transparent 70%); animation:orbF 12s ease-in-out infinite alternate; pointer-events:none; z-index:1; }
         .hero::after { content:''; position:absolute; bottom:-150px; right:-150px; width:500px; height:500px; background:radial-gradient(circle,rgba(255,215,0,.08) 0%,transparent 70%); animation:orbF 10s ease-in-out infinite alternate-reverse; pointer-events:none; z-index:1; }
@@ -234,14 +234,14 @@
         .about-image { 
             position: relative; 
             width: 200%;
-            transform: translateX(-15%) translateY(28px);
+            transform: translateX(-25%) translateY(28px);
             transform-origin: center center;
             filter: drop-shadow(0 20px 40px rgba(0,0,0,.9));
             z-index: 1;
             transition: opacity .7s ease, transform .7s ease;
         }
         .about-image.visible {
-            transform: translateX(-15%) translateY(0) !important;
+            transform: translateX(-25%) translateY(0) !important;
             opacity: 1;
         }
         .about-image img { 
@@ -367,9 +367,9 @@
         .floating-croc-wrap { position: relative; z-index: 10; pointer-events: none; width: 100%; height: 0; }
         .floating-croc {
             position: absolute;
-            right: -200px; /* Desplazado a la derecha solo en PC */
+            right: -50px; /* Ajustado un poco mas a la derecha en PC */
             bottom: -255px;
-            width: 550px;
+            width: 450px;
             filter: drop-shadow(0 15px 30px rgba(0,0,0,0.6));
             pointer-events: none;
         }
@@ -382,7 +382,7 @@
         .schedule-contact { position: relative; overflow: hidden; background: none; }
         .schedule-contact::before {
             content: ''; position: absolute; inset: -30px;
-            background: url('../img/gym.png') center/cover no-repeat;
+            background: url('../img/gym.webp') center/cover no-repeat;
             filter: blur(8px); z-index: 1;
         }
         .schedule-contact::after {
