@@ -270,7 +270,7 @@
         }
         .maestro-bg-img {
             position:absolute; inset:0;
-            background:url('../img/maestro.png') left bottom/auto 88% no-repeat;
+            background:url('../img/maestro.webp') left bottom/auto 88% no-repeat;
             transition:transform .8s ease;
         }
         .maestro-section:hover .maestro-bg-img { transform:scale(1.03); }
@@ -477,7 +477,7 @@
             nav ul li a { padding:11px 14px; font-size:.95rem; }
             
             .maestro-inner { min-height:auto; flex-direction:column; justify-content:flex-end; }
-            .maestro-bg-img { background:url('../img/maestro.png') center top/cover no-repeat; }
+            .maestro-bg-img { background:url('../img/maestro.webp') center top/cover no-repeat; }
             .maestro-overlay { background:linear-gradient(to bottom,rgba(33,79,54,0) 0%,rgba(33,79,54,0) 35%,rgba(33,79,54,.72) 60%,rgba(33,79,54,.97) 80%,rgba(33,79,54,1) 100%); }
             .maestro-section { min-height:120vw; }
             .maestro-text { width:100%; padding:50vw 6% 60px; }
