@@ -403,6 +403,8 @@
         .sched-table tbody tr:hover td { background:rgba(255,255,255,.04); color:#fff; }
         .sched-table .day { font-weight:600; color:rgba(255,255,255,.9); }
         .cbadge { display:inline-block; padding:3px 9px; border-radius:20px; font-size:.72rem; font-weight:600; background:rgba(58,140,92,.15); color:var(--green-lt); border:1px solid rgba(92,191,133,.2); }
+        .sched-block { display:inline-block; white-space:nowrap; }
+        .sched-separator { display:inline; }
         .contact-list { display:flex; flex-direction:column; gap:12px; }
         .contact-row { display:flex; align-items:center; gap:13px; padding:11px 13px; border-radius:11px; transition:background .25s; text-decoration:none; }
         .contact-row:hover { background:rgba(255,255,255,.04); }
@@ -492,6 +494,10 @@
             .brothers-grid { grid-template-columns:1fr; }
             .footer-grid { grid-template-columns:1fr; }
             .footer-bottom { flex-direction:column; text-align:center; }
+            
+            .sched-block { display:block; margin-bottom:6px; }
+            .sched-block:last-child { margin-bottom:0; }
+            .sched-separator { display:none; }
         }
         @media (max-width:380px) {
             .arts-grid { grid-template-columns:1fr; }
